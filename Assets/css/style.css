@@ -10,7 +10,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/*header*/
+/*header
+changed class selector fro element selector, changed div element for header*/
 
 header {
     padding: 20px;
@@ -27,6 +28,8 @@ h1 {
 h1 .seo {
     color: #d9dcd6;
 }
+
+/*switched div for nav element and changed selector*/
 
 nav {
     padding-top: 15px;
@@ -83,6 +86,7 @@ p {
     margin-left: 20px;
 }
 
+/*grouped contents elements that had the same property values by class and grouped under one selector*/
 
 .contents {
     margin-bottom: 20px;
@@ -98,7 +102,9 @@ p {
 
 }
 
-/*aside*/
+/*aside
+switched div for aside element
+grouped benefits elements that had the same property values by class and grouped under one selector*/
 
 .benefits {
     margin-right: 20px;
@@ -127,7 +133,8 @@ h3 {
     max-width: 150px;
 }
 
-/*footer*/
+/*footer
+switched div element to footer and changed appropriate selectors*/
 
 h2 {
     margin-bottom: 20px;
